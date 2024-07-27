@@ -1,6 +1,4 @@
 
-from decimal import Decimal
-
 a = 123
 a = a + 456
 print(a)
@@ -34,3 +32,19 @@ print(a)
 import math
 
 math.pi
+print(math.pi)
+
+import random
+
+random.seed ("фикс рандом")
+
+print("----------")
+
+print(random.randint( a = 0, b =  100))
+print(random.randint( a = 0, b =  100))
+print(random.randint( a = 0, b =  100))
+
+print("----------")
+
+print(round(1.333333, 2))
+
